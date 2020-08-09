@@ -3,7 +3,7 @@
 [Jian Kang](https://github.com/jiankang1991), [Ruben Fernandez-Beltran](https://scholar.google.es/citations?user=pdzJmcQAAAAJ&hl=es),[Danfeng Hong](https://sites.google.com/view/danfeng-hong), [Jocelyn Chanussot](http://www.gipsa-lab.grenoble-inp.fr/~jocelyn.chanussot/), [Antonio Plaza](https://www.umbc.edu/rssipl/people/aplaza/)
 ---
 
-This repo contains the codes for the TGRS paper: [Graph Relation Network: Modeling Relations between Scenes for Multi-Label Remote Sensing Image Classification and Retrieval](). We propose a new graph relation network (GRN) for multi-label RS scene categorization. Our GRN is able to model the relations between samples (or scenes) by making use of a graph structure which is fed into network learning. For this purpose, we define a new loss function called scalable neighbor discriminative loss with binary cross entropy (SNDL-BCE), that is able to embed the graph structures through the networks more effectively. The proposed approach can guide deep learning techniques (such as convolutional neural networks) to a more discriminative metric space, where semantically similar RS scenes are closely embedded and dissimilar images are separated from a novel multi-label viewpoint. To achieve this goal, our GRN jointly maximizes a weighted leave-one-out K-nearest neighbors (KNN) score in the training set, where the weight matrix describes the contributions of the nearest neighbors associated with each RS image on its class decision, and the likelihood of the class discrimination in the multi-label scenario.
+This repo contains the codes for the TGRS paper: [Graph Relation Network: Modeling Relations between Scenes for Multi-Label Remote Sensing Image Classification and Retrieval](https://www.umbc.edu/rssipl/people/aplaza/Papers/Journals/2020.TGRS.GRN.pdf). We propose a new graph relation network (GRN) for multi-label RS scene categorization. Our GRN is able to model the relations between samples (or scenes) by making use of a graph structure which is fed into network learning. For this purpose, we define a new loss function called scalable neighbor discriminative loss with binary cross entropy (SNDL-BCE), that is able to embed the graph structures through the networks more effectively. The proposed approach can guide deep learning techniques (such as convolutional neural networks) to a more discriminative metric space, where semantically similar RS scenes are closely embedded and dissimilar images are separated from a novel multi-label viewpoint. To achieve this goal, our GRN jointly maximizes a weighted leave-one-out K-nearest neighbors (KNN) score in the training set, where the weight matrix describes the contributions of the nearest neighbors associated with each RS image on its class decision, and the likelihood of the class discrimination in the multi-label scenario.
 
 
 ![alt text](./Selection_004.png)
@@ -18,7 +18,14 @@ This repo contains the codes for the TGRS paper: [Graph Relation Network: Modeli
 ## Citation
 
 ```
-
+@article{kang2020deepunsu,
+  title={Graph Relation Network: Modeling Relations between Scenes for Multi-Label Remote Sensing Image Classification and Retrieval}},
+  author={Kang, Jian and Fernandez-Beltran, Ruben and Hong, Danfeng and Chanussot, Jocelyn and Plaza, Antonio},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  year={2020},
+  note={}
+  publisher={IEEE}
+}
 ```
 
 ## References
