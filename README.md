@@ -23,7 +23,7 @@ This repo contains the codes for the TGRS paper: [Graph Relation Network: Modeli
   author={Kang, Jian and Fernandez-Beltran, Ruben and Hong, Danfeng and Chanussot, Jocelyn and Plaza, Antonio},
   journal={IEEE Transactions on Geoscience and Remote Sensing},
   year={2020},
-  note={}
+  note={DOI:10.1109/TGRS.2020.3016020}
   publisher={IEEE}
 }
 ```
